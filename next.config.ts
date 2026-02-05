@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: "export",
   images: {
     // ✅ Allow only your Firebase Storage images to be optimized
     remotePatterns: [
@@ -22,6 +23,7 @@ const nextConfig: NextConfig = {
 
     // ✅ Reduce unnecessary transformations by caching longer
     minimumCacheTTL: 2678400,
+    unoptimized: true,
   },
 };
 
