@@ -2,11 +2,9 @@
   "name": "royalmabati",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
+   "scripts": {
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "pages:build": "next build && npx @cloudflare/next-on-pages"
   },
   "dependencies": {
     "lucide-react": "^0.563.0",
