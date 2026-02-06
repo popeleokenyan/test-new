@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   title: "Apex beyond Mabati - Quality Roofing Solutions in Kenya",
   description:
     "Your trusted source for quality roofing sheets and affordable mabati in Kenya",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

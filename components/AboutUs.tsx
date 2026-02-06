@@ -17,7 +17,7 @@ export default function AboutUs() {
             Who We Are
           </h2>
           <p className="text-gray-700 leading-[2.0] text-center">
-            <span className="font-semibold">Royd Mabati®</span> is a trusted
+            <span className="font-semibold">Apex Beyond Mabati®</span> is a trusted
             leader in the roofing industry, committed to delivering exceptional
             solutions and products. Since our establishment in 2016 and
             incorporation in 2021, our state-of-the-art factory in Nairobi has

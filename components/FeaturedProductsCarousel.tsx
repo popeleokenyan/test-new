@@ -36,9 +36,10 @@ export default function FeaturedProductsCarousel({
       {/* Scrollable container stretching full width */}
       <div className="flex space-x-10 overflow-x-auto w-full scrollbar-hide">
         {currentItems.map((product: any) => (
-          <div
+          <Link
             key={product.id} // use a unique key
             className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/5 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden"
+            href={`/products/${product.name.toLocaleLowerCase().replace(/\s+/g, "-")}`}
           >
             {/* Image */}
             <div className="aspect-square bg-gray-100 relative overflow-hidden">
@@ -89,7 +90,7 @@ export default function FeaturedProductsCarousel({
                 )}
               </button>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
 

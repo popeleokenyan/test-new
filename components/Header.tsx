@@ -40,10 +40,10 @@ export default function Header() {
 
           {/* Logo */}
           <div className="absolute left-1/2 -translate-x-1/2 lg:static lg:translate-x-0 flex items-center">
-            <div className="relative h-16 w-16 rounded-lg overflow-hidden">
+            <div className="relative h-28 w-28 rounded-lg overflow-hidden">
               <Link href="/">
                 <Image
-                  src="https://www.royalmabati.com/cdn/shop/files/Asset_45.png?v=1718101941&width=200"
+                  src="/Apex Beyond Mabati Logo-02.svg"
                   alt="Logo"
                   fill
                   className="object-contain p-1"

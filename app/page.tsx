@@ -4,62 +4,11 @@ import { CustomerTestimonials } from "@/components/CustomerTestimonials";
 import FeaturedProductsCarousel from "@/components/FeaturedProductsCarousel";
 import { HeroSection } from "@/components/HeroSection";
 import { TrustIcon } from "@/components/TrustIcons";
-import { blogPosts } from "@/data/app-data";
+import { blogPosts, featuredProducts } from "@/data/app-data";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
-  const featuredProducts = [
-    {
-      id: 19,
-      name: "Apex beyond ZEE TILE®",
-      price: 491.0,
-      url: "https://www.royalmabati.com/cdn/shop/files/RoyalZeetileBrickRedMatteFinish.G28.png?v=1718113507&width=533",
-    },
-    {
-      id: 20,
-      name: "Apex beyond AlloyZinc Box®",
-      price: 323.0,
-      url: "https://www.royalmabati.com/cdn/shop/files/WhatsApp_Image_2024-07-31_at_4.51.47_PM_1.jpg?v=1722434283&width=533",
-    },
-    {
-      id: 21,
-      name: "Apex beyond AlloyZinc Corrugated®",
-      price: 323.0,
-      url: "https://www.royalmabati.com/cdn/shop/files/WhatsApp_Image_2024-07-31_at_4.51.46_PM.jpg?v=1722434386&width=533",
-    },
-    {
-      id: 22,
-      name: "Apex beyond Box Profile®",
-      price: 328.0,
-      url: "https://www.royalmabati.com/cdn/shop/files/RoyalBoxProfileCharcoalGrey.G30.png?v=1722583639&width=533",
-    },
-    {
-      id: 23,
-      name: "Apex beyond BRICKTILE®",
-      price: 491.0,
-      url: "https://www.royalmabati.com/cdn/shop/files/RoyalBrickTileCharcoalGreyMatteFinish.G28.png?v=1718111262&width=533",
-    },
-    {
-      id: 24,
-      name: "Apex beyond AlloyZinc Corrugated®",
-      price: 323.0,
-      url: "https://www.royalmabati.com/cdn/shop/files/WhatsApp_Image_2024-07-31_at_4.51.46_PM.jpg?v=1722434386&width=533",
-    },
-    {
-      id: 25,
-      name: "Apex beyond Box Profile®",
-      price: 328.0,
-      url: "https://www.royalmabati.com/cdn/shop/files/RoyalBoxProfileCharcoalGrey.G30.png?v=1722583639&width=533",
-    },
-    {
-      id: 26,
-      name: "Apex beyond BRICKTILE®",
-      price: 491.0,
-      url: "https://www.royalmabati.com/cdn/shop/files/RoyalBrickTileCharcoalGreyMatteFinish.G28.png?v=1718111262&width=533",
-    },
-  ];
-
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}

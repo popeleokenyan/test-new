@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Check, ShoppingCart, SlidersHorizontal } from "lucide-react";
 import { useCart } from "@/app/contexts/CartContext";
+import Link from "next/link";
 
 export function AllProducts({ products }: { products: any }) {
   const [sortBy, setSortBy] = useState("bestselling");
@@ -62,8 +63,9 @@ export function AllProducts({ products }: { products: any }) {
       <div className="max-w-9xl mx-auto mb-10 mt-3">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {products.map((product: any) => (
-            <div
+            <Link
               key={product.id}
+              href={`/products/${product.name.toLocaleLowerCase().replace(/\s+/g, '-')}`}
               className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col h-full"
             >
               {/* Image */}
@@ -89,7 +91,11 @@ export function AllProducts({ products }: { products: any }) {
 
                 {/* Button */}
                 <button
-                  onClick={() => handleAddToCart(product)}
+                  onClick={(e: React.MouseEvent<HTMLButtonElement>) => {
+                    e.preventDefault(); // Prevent navigation when clicking the button
+                    e.stopPropagation(); // Stop the click event from bubbling up to the Link
+                    handleAddToCart(product)
+                  }}
                   disabled={addedToCart[product.id]}
                   className={`
                     mt-auto w-full py-2.5 rounded-xl font-medium transition-all duration-300
@@ -114,7 +120,7 @@ export function AllProducts({ products }: { products: any }) {
                   )}
                 </button>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
