@@ -137,14 +137,14 @@ export const allproducts = [
   // },
   {
     id: 8,
-    name: "Apex beyond CUSTOM CHANNELS",
+    name: "ROYAL GYPSUM CHANNELS",
     category: "Apex beyond MABATI",
     price: 10000.0,
     url: "/RMFL-GYPSUMCHANNELS.png",
   },
   {
     id: 9,
-    name: "Apex beyond IN ALABASTER",
+    name: "ROYAL PLAINSHEET",
     category: "Apex beyond MABATI",
     price: 12022.02,
     url: "https://www.royalmabati.com/cdn/shop/files/WhatsApp_Image_2024-06-25_at_2.40.42_PM.jpg?v=1719315845&width=1946",
@@ -272,7 +272,7 @@ export const allproducts = [
       slug: "Royal AlloyZinc Corrugated"
         .toLocaleLowerCase()
         .replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
@@ -324,7 +324,7 @@ export const allproducts = [
       slug: "Apex beyond StrucTex Roof Iron coloured"
         .toLocaleLowerCase()
         .replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
@@ -342,60 +342,20 @@ export const allproducts = [
       slug: "Apex beyond AlumZinc Corrugated Fiber Cement"
         .toLocaleLowerCase()
         .replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
-        "Royal AlloyZinc (Non-coloured) sheets offers definitive choice for superior roofing solutions. Crafted from a premium-grade zinc alloy, these sheets epitomize durability, elegance, and advanced engineering, offering unparalleled performance for discerning projects.",
-      images: [
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedDBG.jpg?v=1760206997&width=533",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
-      ],
+        "Royal AlloyZinc (Non-coloured) sheets, offers definitive choice for superior roofing solutions. Crafted from a premium-grade zinc alloy, these sheets epitomize durability, elegance, and advanced engineering, offering unparalleled performance for discerning projects.",
+      images: ["/WhatsApp_Image_2024-07-31_at_4.51.48_PM_1.png"],
       minLength: 0.6,
       maxLength: 12,
-      specifications: [
-        "Material: Premium-grade zinc alloy",
-        "Thickness: 0.35mm - 0.50mm",
-        "Width: 1000mm",
-        "Profile Height: 18mm",
-        "Coating: Aluminum-Zinc (55% Al, 43.5% Zn)",
-        "Warranty: 15 years",
-      ],
-      gaugeOptions: [
-        {
-          value: "28",
-          label: "28",
-          compatibleFinishes: [
-            "GALVANIZED",
-            "ALLOYZINC",
-            "MATTE FINISH",
-            "GLOSSY FINISH",
-          ],
-        },
-        {
-          value: "30",
-          label: "30",
-          compatibleFinishes: ["GALVANIZED", "ALLOYZINC", "STONECOATED FINISH"],
-        },
-      ],
-      finishOptions: [
-        { value: "GALVANIZED", label: "GALVANIZED" },
-        { value: "ALLOYZINC", label: "ALLOYZINC" },
-        { value: "GLOSSY FINISH", label: "GLOSSY FINISH" },
-        { value: "MATTE FINISH", label: "MATTE FINISH" },
-        { value: "STONECOATED FINISH", label: "STONECOATED FINISH" },
-      ],
-      defaultGauge: "28",
-      defaultFinish: "MATTE FINISH",
     },
     {
       id: "4",
       name: "Apex beyond Box Profile",
       slug: "Apex beyond Box Profile".toLocaleLowerCase().replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
@@ -445,17 +405,14 @@ export const allproducts = [
       id: "5",
       name: "Apex beyond MIXCOLOR",
       slug: "Apex beyond MIXCOLOR".toLocaleLowerCase().replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
-        "Royal AlloyZinc (Non-coloured) sheets offers definitive choice for superior roofing solutions. Crafted from a premium-grade zinc alloy, these sheets epitomize durability, elegance, and advanced engineering, offering unparalleled performance for discerning projects.",
+        "Designed to mimic the appearance of traditional brick tiles, providing a classic and timeless look while offering the superior performance of modern roofing materials.",
       images: [
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedDBG.jpg?v=1760206997&width=533",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
+        "/ApexBeeBrickTileCharcoalGreyMatteFinish.G28.png",
+        "/Apex_BrickTile_BrickRed_Matte_Finish._G28_1.png",
       ],
       minLength: 0.6,
       maxLength: 12,
@@ -500,17 +457,18 @@ export const allproducts = [
       slug: "Apex beyond CORRUGATED COLOURED ROOFING"
         .toLocaleLowerCase()
         .replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
-        "Royal AlloyZinc (Non-coloured) sheets offers definitive choice for superior roofing solutions. Crafted from a premium-grade zinc alloy, these sheets epitomize durability, elegance, and advanced engineering, offering unparalleled performance for discerning projects.",
+        "Discover the strength and beauty of ROYAL CORRUGATED COLOURED PROFILE®, Kenya’s most reliable and affordable roofing solution. Proudly certified by the Kenya Bureau of Standards (KEBS) and manufactured under strict internal quality controls, this profile represents the perfect blend of durability, style, and value. Engineered from premium-grade steel and coated with advanced anti-fade color technology, each sheet is built to deliver long-lasting protection against rust, corrosion, and harsh weather conditions. Whether for homes, schools, churches, or commercial projects, Royal Corrugated® ensures your roof remains strong, beautiful, and dependable for decades. Order today from Royal Mabati Factory Ltd. and experience why thousands of builders, homeowners, and contractors across Kenya and East Africa choose Royal Corrugated® as their roof of choice.",
       images: [
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedDBG.jpg?v=1760206997&width=533",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
+        "/CorrugatedDBG.png",
+        "/RoyalCorrugatedProfile-BrickRedG30.png",
+        "/CorrugatedCGM.png",
+        "/CorrugatedJGG.png",
+        "/CorrugatedCBM.png",
+        "/CorrugatedBRM.png",
       ],
       minLength: 0.6,
       maxLength: 12,
@@ -553,7 +511,7 @@ export const allproducts = [
       id: "7",
       name: "Apex beyond EBMD TILES",
       slug: "Apex beyond EBMD TILES".toLocaleLowerCase().replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
@@ -604,22 +562,14 @@ export const allproducts = [
     },
     {
       id: "8",
-      name: "Apex beyond CUSTOM CHANNELS",
-      slug: "Apex beyond CUSTOM CHANNELS"
-        .toLocaleLowerCase()
-        .replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      name: "ROYAL GYPSUM CHANNELS",
+      slug: "royal-gypsum-channels".toLocaleLowerCase().replace(/\s+/g, "-"),
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
-        "Royal AlloyZinc (Non-coloured) sheets offers definitive choice for superior roofing solutions. Crafted from a premium-grade zinc alloy, these sheets epitomize durability, elegance, and advanced engineering, offering unparalleled performance for discerning projects.",
-      images: [
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedDBG.jpg?v=1760206997&width=533",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
-      ],
+        "Gypsum channels, also known as metal furring channels or ceiling channels, are essential components in modern construction and interior design. These channels are typically made from galvanized steel or aluminum and are designed to provide a sturdy framework for attaching gypsum boards (drywall) to ceilings and walls. The channels are lightweight yet strong, making them ideal for creating smooth, even surfaces for finishing. They come in various sizes and profiles to accommodate different construction needs, allowing for easy installation and flexibility in design. Gypsum channels play a crucial role in ensuring the structural integrity of ceilings and walls while providing a clean and professional finish to interior spaces.",
+      images: ["/RMFL-GYPSUMCHANNELS.png"],
       minLength: 0.6,
       maxLength: 12,
       specifications: [
@@ -632,46 +582,23 @@ export const allproducts = [
       ],
       gaugeOptions: [
         {
-          value: "28",
-          label: "28",
-          compatibleFinishes: [
-            "GALVANIZED",
-            "ALLOYZINC",
-            "MATTE FINISH",
-            "GLOSSY FINISH",
-          ],
-        },
-        {
-          value: "30",
-          label: "30",
-          compatibleFinishes: ["GALVANIZED", "ALLOYZINC", "STONECOATED FINISH"],
+          value: "24",
+          label: "24",
+          compatibleFinishes: ["ALLOYZINC"],
         },
       ],
-      finishOptions: [
-        { value: "GALVANIZED", label: "GALVANIZED" },
-        { value: "ALLOYZINC", label: "ALLOYZINC" },
-        { value: "GLOSSY FINISH", label: "GLOSSY FINISH" },
-        { value: "MATTE FINISH", label: "MATTE FINISH" },
-        { value: "STONECOATED FINISH", label: "STONECOATED FINISH" },
-      ],
-      defaultGauge: "28",
-      defaultFinish: "MATTE FINISH",
     },
     {
       id: "9",
-      name: "Apex beyond IN ALABASTER",
-      slug: "Apex beyond IN ALABASTER".toLocaleLowerCase().replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      name: "ROYAL PLAINSHEET",
+      slug: "ROYAL PLAINSHEET".toLocaleLowerCase().replace(/\s+/g, "-"),
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
-        "Royal AlloyZinc (Non-coloured) sheets offers definitive choice for superior roofing solutions. Crafted from a premium-grade zinc alloy, these sheets epitomize durability, elegance, and advanced engineering, offering unparalleled performance for discerning projects.",
+        "These sheets provide a balance of durability, affordability, and ease of installation, making them a popular choice for both new constructions and renovations.",
       images: [
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedDBG.jpg?v=1760206997&width=533",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
+        "https://www.royalmabati.com/cdn/shop/files/WhatsApp_Image_2024-06-25_at_2.40.42_PM.jpg?v=1719315845&width=1946",
       ],
       minLength: 0.6,
       maxLength: 12,
@@ -714,17 +641,13 @@ export const allproducts = [
       id: "10",
       name: "Apex beyond ROLL TOPS",
       slug: "Apex beyond ROLL TOPS".toLocaleLowerCase().replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
-        "Royal AlloyZinc (Non-coloured) sheets offers definitive choice for superior roofing solutions. Crafted from a premium-grade zinc alloy, these sheets epitomize durability, elegance, and advanced engineering, offering unparalleled performance for discerning projects.",
+        "Our Ridge Cap Roll is the ultimate solution for sealing the ridge of your roof, providing both protection and a clean, finished look. Designed to complement various roofing styles, it ensures your roof is watertight and aesthetically pleasing.",
       images: [
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedDBG.jpg?v=1760206997&width=533",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
+        "https://www.royalmabati.com/cdn/shop/files/WhatsAppImage2024-06-13at9.21.17AM.jpg?v=1718350297&width=1946",
       ],
       minLength: 0.6,
       maxLength: 12,
@@ -769,7 +692,7 @@ export const allproducts = [
       slug: "Apex beyond ROMANIAC TILES"
         .toLocaleLowerCase()
         .replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
@@ -821,20 +744,16 @@ export const allproducts = [
     {
       id: "12",
       name: "Apex beyond ROOFING NAILS",
-      slug: "Apex beyond ROOFING NAILS"
+      slug: "apex-beyond-roofing-nails"
         .toLocaleLowerCase()
         .replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
-        "Royal AlloyZinc (Non-coloured) sheets offers definitive choice for superior roofing solutions. Crafted from a premium-grade zinc alloy, these sheets epitomize durability, elegance, and advanced engineering, offering unparalleled performance for discerning projects.",
+        "Discover the Royal Roofing Experience: Where Quality Meets Confidence. Elevate your roofing project with our curated selection of premium roofing materials, meticulously sourced to ensure unparalleled durability and performance",
       images: [
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedDBG.jpg?v=1760206997&width=533",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
+        "https://www.royalmabati.com/cdn/shop/files/roofing-nails.png?v=1718190051&width=1946",
       ],
       minLength: 0.6,
       maxLength: 12,
@@ -850,21 +769,11 @@ export const allproducts = [
         {
           value: "28",
           label: "28",
-          compatibleFinishes: [
-            "GALVANIZED",
-            "ALLOYZINC",
-            "MATTE FINISH",
-            "GLOSSY FINISH",
-          ],
-        },
-        {
-          value: "30",
-          label: "30",
-          compatibleFinishes: ["GALVANIZED", "ALLOYZINC", "STONECOATED FINISH"],
+          compatibleFinishes: ["KG"],
         },
       ],
       finishOptions: [
-        { value: "GALVANIZED", label: "GALVANIZED" },
+        { value: "KG", label: "KG" },
         { value: "ALLOYZINC", label: "ALLOYZINC" },
         { value: "GLOSSY FINISH", label: "GLOSSY FINISH" },
         { value: "MATTE FINISH", label: "MATTE FINISH" },
@@ -879,17 +788,12 @@ export const allproducts = [
       slug: "Apex beyond RUBBER WASHERS"
         .toLocaleLowerCase()
         .replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
-      description:
-        "Royal AlloyZinc (Non-coloured) sheets offers definitive choice for superior roofing solutions. Crafted from a premium-grade zinc alloy, these sheets epitomize durability, elegance, and advanced engineering, offering unparalleled performance for discerning projects.",
+      description: "",
       images: [
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedDBG.jpg?v=1760206997&width=533",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
+        "https://www.royalmabati.com/cdn/shop/files/WhatsAppImage2024-06-11at4.06.16PM.jpg?v=1719496988&width=1946",
       ],
       minLength: 0.6,
       maxLength: 12,
@@ -934,7 +838,7 @@ export const allproducts = [
       slug: "Apex beyond STONE COATED CLASSIC II"
         .toLocaleLowerCase()
         .replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
@@ -989,7 +893,7 @@ export const allproducts = [
       slug: "Apex beyond STONE COATED SHINGLE"
         .toLocaleLowerCase()
         .replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
@@ -1042,17 +946,13 @@ export const allproducts = [
       id: "16",
       name: "Apex beyond TIMBERS",
       slug: "Apex beyond TIMBERS".toLocaleLowerCase().replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
-        "Royal AlloyZinc (Non-coloured) sheets offers definitive choice for superior roofing solutions. Crafted from a premium-grade zinc alloy, these sheets epitomize durability, elegance, and advanced engineering, offering unparalleled performance for discerning projects.",
+        "Our Steel Trusses are designed to provide exceptional support and stability to your roofing structure. Crafted from high-grade steel, these trusses are engineered for superior performance and longevity, ensuring your roof can withstand various loads and weather conditions.",
       images: [
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedDBG.jpg?v=1760206997&width=533",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
+        "/WhatsAppImage2024-06-11at10.56.30PM_2_d474bd93-e653-4d90-b52e-ffa071b1e7a0.png",
       ],
       minLength: 0.6,
       maxLength: 12,
@@ -1066,19 +966,9 @@ export const allproducts = [
       ],
       gaugeOptions: [
         {
-          value: "28",
-          label: "28",
-          compatibleFinishes: [
-            "GALVANIZED",
-            "ALLOYZINC",
-            "MATTE FINISH",
-            "GLOSSY FINISH",
-          ],
-        },
-        {
-          value: "30",
-          label: "30",
-          compatibleFinishes: ["GALVANIZED", "ALLOYZINC", "STONECOATED FINISH"],
+          value: "22",
+          label: "22",
+          compatibleFinishes: [],
         },
       ],
       finishOptions: [
@@ -1095,17 +985,13 @@ export const allproducts = [
       id: "17",
       name: "Apex beyond VALLEYS",
       slug: "Apex beyond VALLEYS".toLocaleLowerCase().replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
-        "Royal AlloyZinc (Non-coloured) sheets offers definitive choice for superior roofing solutions. Crafted from a premium-grade zinc alloy, these sheets epitomize durability, elegance, and advanced engineering, offering unparalleled performance for discerning projects.",
+        "Our Valley panels are engineered to enhance the efficiency and durability of your roofing system by effectively channeling water away from the roof's valleys, where two slopes meet. Designed for optimal performance and aesthetic integration, these panels are a crucial component for any well-constructed roof.",
       images: [
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedDBG.jpg?v=1760206997&width=533",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
+        "https://www.royalmabati.com/cdn/shop/files/Valley.png?v=1718094819&width=1946",
       ],
       minLength: 0.6,
       maxLength: 12,
@@ -1150,17 +1036,13 @@ export const allproducts = [
       slug: "Apex beyond WEDGE RIDGE CAPS"
         .toLocaleLowerCase()
         .replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
         "Royal AlloyZinc (Non-coloured) sheets offers definitive choice for superior roofing solutions. Crafted from a premium-grade zinc alloy, these sheets epitomize durability, elegance, and advanced engineering, offering unparalleled performance for discerning projects.",
       images: [
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedDBG.jpg?v=1760206997&width=533",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedCGM.jpg?v=1760207382&width=1946",
-        "https://www.royalmabati.com/cdn/shop/files/CorrugatedJGG.jpg?v=1760207382&width=1946",
+        "https://www.royalmabati.com/cdn/shop/files/Ridge-Cap.png?v=1718094803&width=1946",
       ],
       minLength: 0.6,
       maxLength: 12,
@@ -1203,7 +1085,7 @@ export const allproducts = [
       id: "19",
       name: "Apex beyond ZEE TILE",
       slug: "Apex beyond ZEE TILE".toLocaleLowerCase().replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 460,
       pricePerMeter: 460,
       description:
@@ -1253,7 +1135,7 @@ export const allproducts = [
       slug: "Apex beyond AlloyZinc Box"
         .toLocaleLowerCase()
         .replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
@@ -1271,7 +1153,7 @@ export const allproducts = [
       slug: "Apex beyond AlloyZinc Corrugated"
         .toLocaleLowerCase()
         .replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
@@ -1287,7 +1169,7 @@ export const allproducts = [
       id: "22",
       name: "Apex beyond Box Profile",
       slug: "Apex beyond Box Profile".toLocaleLowerCase().replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
@@ -1342,7 +1224,7 @@ export const allproducts = [
       slug: "Royal AlloyZinc Corrugated"
         .toLocaleLowerCase()
         .replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
@@ -1395,7 +1277,7 @@ export const allproducts = [
       id: "23",
       name: "Apex beyond BRICKTILE",
       slug: "Apex beyond BRICKTILE".toLocaleLowerCase().replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
@@ -1447,7 +1329,7 @@ export const allproducts = [
       slug: "Apex beyond AlloyZinc Corrugated"
         .toLocaleLowerCase()
         .replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
@@ -1500,7 +1382,7 @@ export const allproducts = [
       id: "25",
       name: "Apex beyond Box Profile",
       slug: "Apex beyond Box Profile".toLocaleLowerCase().replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:
@@ -1553,7 +1435,7 @@ export const allproducts = [
       id: "26",
       name: "Apex beyond Box Profile",
       slug: "Apex beyond Box Profile".toLocaleLowerCase().replace(/\s+/g, "-"),
-      category: "ROYAL MABATI",
+      category: "APEX BEYOND",
       price: 850,
       pricePerMeter: 850,
       description:

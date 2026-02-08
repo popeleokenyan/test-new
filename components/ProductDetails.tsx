@@ -4,39 +4,23 @@ import { Minus, Plus, ShoppingCart, Check } from "lucide-react";
 import { useCart } from "@/app/contexts/CartContext";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { productsDetailsData } from "@/data/app-data";
+import { allproducts, productsDetailsData } from "@/data/app-data";
 
-// Related products
-const relatedProducts = [
-  {
-    id: "2",
-    name: "Royal AlloyZinc Box® (Non-coloured)",
-    price: 323.0,
-    url:
-      "https://www.royalmabati.com/cdn/shop/files/WhatsApp_Image_2024-07-31_at_4.51.46_PM.jpg?v=1722434386&width=533",
-  },
-  {
-    id: "3",
-    name: "ROYAL CORRUGATED COLOURED PROFILE®",
-    price: 328.0,
-    url:
-      "https://www.royalmabati.com/cdn/shop/files/RoyalBoxProfileCharcoalGrey.G30.png?v=1722583639&width=533",
-  },
-  {
-    id: "4",
-    name: "ROYAL PLAINSHEET®",
-    price: 259.0,
-    url:
-      "https://www.royalmabati.com/cdn/shop/files/RoyalEurotileCharcoalGreyG28.png?v=1718111776&width=533",
-  },
-  {
-    id: "5",
-    name: "ROYAL STONE COATED CLASSIC® KSH603.00",
-    price: 603.0,
-    url:
-      "https://www.royalmabati.com/cdn/shop/files/RoyalZeetileBrickRedMatteFinish.G28.png?v=1718113507&width=533",
-  },
-];
+function getRandomItems(arr: any[], count = 4) {
+  // 1. Create a shallow copy so we don't mutate the original array
+  const shuffled = [...arr];
+
+  // 2. Fisher-Yates Shuffle
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+
+  // 3. Return the first N items
+  return shuffled.slice(0, count);
+}
+
+const relatedProducts = getRandomItems(allproducts);
 
 export function ProductDetails({ name }: { name: string }) {
   const router = useRouter();
